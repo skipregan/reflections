@@ -3,10 +3,19 @@ What happens when you initialize a repository? Why do you need to do it?
 create the .git folder and allow you to create your first commit (I assume)
 
 ------------------------------------------------------------------
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+
+staging area - what files will be included in the next commit
+working dir - all the files in the project folder
+repository - all the git commits?
 
 
 ------------------------------------------------------------------
+How can you use the staging area to make sure you have one commit per logical change?
 
+git add the changed file(s) to staging area
+git commit the changed files
 
 ------------------------------------------------------------------
 
