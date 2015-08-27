@@ -31,6 +31,21 @@ How do the diagrams help you visualize the branch structure?
 You can easily see at which commit a branch was created and the relationship of that branch to the master.
 
 ------------------------------------------------------------------
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
+All the changes from both branches are merged into the new master
+
+------------------------------------------------------------------
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+CON: Git might get it wrong.
+PRO: Save time
+------------------------------------------------------------------
+
+------------------------------------------------------------------
+
+------------------------------------------------------------------
+
+------------------------------------------------------------------
 
 ------------------------------------------------------------------
