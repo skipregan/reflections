@@ -17,11 +17,19 @@ Clones - For creating a repository copy on your own computer from one of your lo
 Branches - For modifying another branch (usually master) without affecting the other (master) branch.  Used for adding experimental features that may or not be merged in the future.
 
 ---------------------------------------------------------------------------
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+So you can work on it offline and then push later when needed.
 
 ---------------------------------------------------------------------------
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Seems like it would be an organizational nightmare.  I guess you could email files back and forth - or keep a common folder and "checkout" files until they are modified.
 
 ---------------------------------------------------------------------------
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
 
+You'd do it to test out an idea or experiment with a feature or design change.  That branch could become the new master if things work out.  Working directly in the master has less chance of problems further down the line when trying to merge a branch back into the master.
 ---------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------
